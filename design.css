@@ -1,6 +1,9 @@
 * {
     background-color: rgb(2,1,12);
-    /* color: #000!important; */
+    /*background-color: #050505;*/
+     /*color: #000!important;*/
+    /*text-decoration: none;*/
+    /*color:inherit;*/
 }
 
 h1
@@ -11,6 +14,7 @@ h1
     width: 10em;
     font-family: fantasy;
     font-size:xx-large;
+    text-align: center;
 }
 h2
 {
@@ -58,8 +62,13 @@ a
     left: 13%; */
     /* background-color: rgb(145, 223, 237); */
     /* width: 100%; */
+
     color: aliceblue;
     display: inline;
+    top: 50%; /* Positionne le haut du lien au milieu du conteneur parent */
+    left: 50%; /* Positionne la gauche du lien au milieu du conteneur parent */
+    /*transform: translate(-50%, -50%); !* Centre le lien complètement *!*/
+    text-decoration: none; /* Supprime le soulignement par défaut */
   }
 
 
@@ -85,11 +94,10 @@ a
     display: none;
     position: absolute;
     top: 50%;
-    left: 10%;
+    left: 15%;
     transform: translate(-50%, -50%);
     padding: 10px;
     background-color: rgba(206, 193, 193, .8);
-    /* border: 1px solid #000; */
   }
   
   .image-container:hover p.hidden {
@@ -99,9 +107,9 @@ a
   
   .card-info {
     position: absolute;
-    top: 50%;
-    left: calc(45% + 20px);
-    transform: translateY(-50%);
+    /*top: 50%;*/
+    /*left: calc(45% + 20px);*/
+    /*transform: translateY(-50%);*/
     width: 200px;
   }
   
